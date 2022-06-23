@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+   
 </head>
 <body>
     <main>
@@ -18,33 +19,36 @@
                     <img src="images/build.svg" alt="">
 
                 </span>
-                    <img src="images/foto.svg" alt="">
+                    <img id="picture" src="images/foto.svg" alt="">
             </div>
-            <h1>bruno alves</h1>
-            <a href="https://instagram.com/alves_tavars"><img src="images/github.svg" alt="">github</a>
-            <p>An instructor focused on helping pople start programming for web</p>
-            <ul>
-                <li>
-                    <a href="https://youtube.com/maykbrito">
+            <h1 id="userName">bruno alves</h1>
+            <a id="userLink" href="https://instagram.com/alves_tavars"><img src="images/github.svg" alt=""> <span id="git">github</span></a>          
+            <p id="bio">An instructor focused on helping pople start programming for web</p>
+            <ul id="socialLinks">
+                <li class = 'youtube'>
+                    <a href="https://youtube.com/maykbrito" target = "_blank">
                     <img src="images/Youtube.svg" alt="imagem youtube">
                     </a>
                 </li>
-                <li>
-                    <a href="https://instagram.com/alves_tavars">
+                <li class="instagram">
+                    <a href="https://instagram.com/alves_tavars" target = "_blank">
                     <img src="images/Instagram.svg" alt="imagem instagram">
                     </a>
                 </li>
-                <li>
-                    <a href="https://facebook.com/bruno alves tavares">
+                <li class="facebook">
+                    <a href="https://facebook.com/bruno alves tavares" target = "_blank">
                     <img src="images/Facebook.svg" alt="imagem facebook">
                     </a>
                 </li>
         
-                <li>  
-                    <a href="https://twitter.com/brun0_tavares"></a>
+                <li class="twitter">  
+                    <a href="https://twitter.com/brun0_tavares" target = "_blank">
                     <img src="images/Twitter.svg" alt="imagem Twitter">
+                    </a>
                 </li>
+            </ul>
         </div>
     </main>
+    <script src="script.js"> </script>
 </body>
 </html>
